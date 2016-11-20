@@ -28,8 +28,7 @@ defmodule ToroidalGrid.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:tuple_matrix, git: "https://github.com/KiyoMenager/tuple_matrix.git"},
-      {:paratize, "~> 2.1.3"}
+      {:tuple_matrix, git: "https://github.com/KiyoMenager/tuple_matrix.git"}
     ]
   end
 end

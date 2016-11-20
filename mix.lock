@@ -1,2 +1,2 @@
 %{"paratize": {:hex, :paratize, "2.1.3", "51ca29cc78a45c90e9ddea5b89da7e567ae291e02f02f3ec05f4819ba3a0f42b", [:mix], []},
-  "tuple_matrix": {:git, "https://github.com/KiyoMenager/tuple_matrix.git", "e22cb371cf5b98867153d3c765035d20278ae019", []}}
+  "tuple_matrix": {:git, "https://github.com/KiyoMenager/tuple_matrix.git", "09768be0b2714ee0cccde502d301b81b393ff986", []}}
