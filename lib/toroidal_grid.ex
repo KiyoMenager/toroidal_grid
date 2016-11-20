@@ -60,7 +60,8 @@ defmodule ToroidalGrid do
     new_grid =
       grid
       |> Tuple.to_list
-      |> Enum.map(&fun.(&1))
+      # |> Enum.map(&fun.(&1))
+      |> Paratize.Pool.parallel_map(&fun.(&1))
       |> List.to_tuple
 
     %TupleMatrix{toroidal | tuple: new_grid}
